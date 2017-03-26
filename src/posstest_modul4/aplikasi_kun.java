@@ -182,14 +182,17 @@ public class aplikasi_kun extends javax.swing.JFrame {
         jheader.setBackground(new java.awt.Color(153, 0, 0));
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("SISTEM INFORMASI PRAKTIKUM");
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("PROGRAM STUDI TEKNIK INFORMATIKA");
 
         jLabel4.setIcon(new javax.swing.ImageIcon("D:\\semester4\\images.jpg")); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("FKTI UNMUL");
 
         javax.swing.GroupLayout jheaderLayout = new javax.swing.GroupLayout(jheader);
@@ -202,8 +205,8 @@ public class aplikasi_kun extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jheaderLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel5))
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel1))
                 .addContainerGap(127, Short.MAX_VALUE))
         );
         jheaderLayout.setVerticalGroup(
@@ -267,11 +270,11 @@ public class aplikasi_kun extends javax.swing.JFrame {
 
     private void profilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_profilActionPerformed
         // TODO add your handling code here:
-        home.setVisible(false);
-        profil.setVisible(true);
-        materi.setVisible(false);
-        jadwal.setVisible(false);
-        about.setVisible(false);
+        jPanel3.setVisible(false);
+        jPanel4.setVisible(true);
+        jPanel3.setVisible(false);
+        jPanel3.setVisible(false);
+        jPanel3.setVisible(false);
     }//GEN-LAST:event_profilActionPerformed
 
     private void homeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeActionPerformed

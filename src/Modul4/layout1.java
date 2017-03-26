@@ -165,15 +165,15 @@ public class layout1 extends javax.swing.JFrame {
 
     private void jMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuActionPerformed
         // TODO add your handling code here:
-        jMenu.setVisible(true);
-        jProfile.setVisible(false);
+        jPanel1.setVisible(true);
+        jPanel2.setVisible(false);
         
     }//GEN-LAST:event_jMenuActionPerformed
 
     private void jProfileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jProfileActionPerformed
         // TODO add your handling code here:
-        jProfile.setVisible(true);
-        jMenu.setVisible(false);
+        jPanel2.setVisible(true);
+        jPanel1.setVisible(false);
     }//GEN-LAST:event_jProfileActionPerformed
 
     private void jExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jExitActionPerformed
